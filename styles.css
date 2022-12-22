@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.blob{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: border-radius 500ms;
+    display: flex;
+    justify-content: center;
+}
+
+.eyes{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.white{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
